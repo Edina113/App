@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(43, 43, 43);
+    font-family: cursive;
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+}
+
+.title{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.editor input {
+    margin: 5px;
+}
+
+.main {
+    color: white;
+    background-color: black;
+}
